@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* INIZIO HEADER */
+header{
+    height: 40px;
+    background-color: rgb(0, 148, 254);
+}
+
+.container_box_header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container_logo_login {
+    border: 2px dashed;
+    background-color: orange;
+    width: 150px;
+    padding: 5px;
+}
+
+.container_link {
+    border: 2px dashed;
+    background-color: orange;
+    width: 400px;
+    padding: 5px;
+}
+
+.text_logo {
+    text-align:left;
+}
+
+.text_login {
+    text-align: right;
+}
+
+.text_link {
+    text-align:center;
+}
+
+/* FINE HEADER */
+
+/* INIZIO CREAZIONE ELEMENTI*/
+.container_main_uno {
+    height: 280px;
+    border: 1px solid transparent;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container_main_due {
+    height: 500px;
+    border: 1px solid transparent;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container_main_tre {
+    height: 90px;
+    border: 1px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-top-color: white;
+    border-bottom-color: white;
+    display: flex; 
+    justify-content: center;
+}
+
+.box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box_due {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box_tre {
+    margin-top: 20px;
+}
+
+.box_container_uno {
+    width: 300px;
+    height: 220px;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.box_container_due {
+    width: 450px;
+    height: 220px;
+    border: 1px dashed black;
+    padding: 10px;
+ }
+
+ .box_container_tre {
+    width: 400px;
+    height: 220px;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.box_container_quattro {
+    width: 600px;
+    height: 400px;
+    border: 1px dashed black;
+    padding: 10px;
+}
+ 
+.box_container_cinque {
+    width: 200px;
+    height: 230px;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.box_container_sei {
+    width: 100px;
+    height: 230px;
+    border: 1px dashed white;
+    padding: 10px;
+}
+
+.box_container_sette {
+    width: 700px;
+    border: 1px dashed transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_container_otto {
+    width: 100px;
+    border: 1px dashed black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+/* FINE CREAZIONE ELEMENTI*/
+
+/* INIZIO PRIMA SEZIONE */
+.section_uno {
+    background-color: rgb(2, 2, 174);
+}
+
+.box_container_tre {
+    background-color: rgb(234, 3, 203);
+}
+/* FINE PRIMA SEZIONE */
+
+/* INIZIO SECONDA SEZIONE */
+.section_due {
+    background-color: white;
+}
+
+.box_container_uno {
+    background-color: rgb(234, 3, 203);
+  
+}
+
+.box_container_due{
+    background-color: blue;
+}
+/* FINE SECONDA SEZIONE */
+
+/* INIZIO TERZA SEZIONE */
+.section_tre {
+    background-color: rgb(183, 183, 183);
+}
+
+.box_container_uno {
+    background-color: rgb(234, 3, 203);
+  
+}
+
+.box_container_due{
+    background-color: blue;
+}
+/* FINE TERZA SEZIONE */
+
+/* INIZIO QUARTA SEZIONE */
+.section_quattro{
+    background-color: white;
+}
+
+.box_container_uno {
+    background-color: rgb(234, 3, 203);
+  
+}
+
+.box_container_due{
+    background-color: blue;
+}
+/* FINE QUARTA SEZIONE */
+
+/* INIZIO QUINTA SEZIONE */
+.section_cinque{
+    background-color: rgb(183, 183, 183);
+}
+
+.box_container_quattro {
+    background-color: green;
+    margin-top: 60px;
+}
+/* FINE QUINTA SEZIONE */
+
+/* INIZIO SESTA SEZIONE */
+.section_sei{
+    background-color: black;
+}
+
+.box_container_cinque {
+    background-color: rgb(196, 112, 178);
+}
+
+.box_container_sei {
+    background-color:rgb(0, 226, 251);
+}
+/* FINE SESTA SEZIONE */
+
+/* INIZIO SETTIMA SEZIONE */
+.section_sette{
+    background-color: black;
+}
+
+.box_container_sette {
+    background-color: rgb(0, 226, 251);
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.box_container_otto{
+    background-color: rgb(196, 112, 178);
+}
+
+/* FINE SETTIMA SEZIONE */
